@@ -5,7 +5,7 @@ export default function Widget() {
                 <h1 className="text-4xl font-bold">Robotik - Instant Analytics & Process Automation</h1>
                 <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg">Get Started</button>
             </header>
-            <p className="text-lg mb-6">We empower entrepreneurs and industry leaders by automating their analytical needs and workflows so they can focus more on important business strategies.</p>
+            <p className="text-lg mb-6">We empower entrepreneurs and industry leaders by automating their analytical needs and workflows so they can focus on business strategies.</p>
             <button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg">See Our Products</button>
             
             <section className="my-12">
@@ -17,12 +17,12 @@ export default function Widget() {
                     </div>
                     <div className="bg-card p-6 rounded-lg shadow-lg">
                         <h3 className="text-xl font-bold">Process Automation (BETA)</h3>
-                        <p className="text-muted-foreground">Enhance your workflows with automation.</p>
+                        <p className="text-muted-foreground">Enhance your business workflows with automation.</p>
                     </div>
                 </div>
             </section>
             <section className="my-12">
-                <h2 className="text-2xl font-semibold mb-4">Empowering entrepreneurs and industry leaders in Indonesia</h2>
+                <h2 className="text-2xl font-semibold mb-4">Empowering Indonesia’s entrepreneurs and industry leaders</h2>
                 <div className="flex flex-wrap justify-center gap-4">
                     <img src="https://drive.google.com/file/d/1WmGLVNjE1bTUsefZoJt8ZjhWpB74ARGs/view?usp=sharing?text=KatalogSN" alt="Katalog Sepatu Nasional" className="w-16 h-16" />
                     <img src="https://drive.google.com/file/d/12xuDxpxunXcL9e5nb3zGda2Nrn0rMDcg/view?usp=sharing?text=ThePavilion" alt="The Pavilion" className="w-16 h-16" />
