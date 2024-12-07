@@ -6,7 +6,6 @@ export default function Widget() {
                 <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg">Get Started</button>
             </header>
             <p className="text-lg mb-6">We empower entrepreneurs and industry leaders by automating their analytical needs and workflows so they can focus on business strategies.</p>
-            <button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg">See Our Products</button>
             
             <section className="my-12">
                 <h2 className="text-2xl font-semibold mb-4">Our Products</h2>
@@ -24,9 +23,9 @@ export default function Widget() {
             <section className="my-12">
                 <h2 className="text-2xl font-semibold mb-4">Empowering Indonesia’s entrepreneurs and industry leaders</h2>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Toko.png" alt="Katalog Sepatu Nasional" className="w-2 h-2" />
-                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Pavilion.png" alt="The Pavilion" className="w-2 h-2" />
-                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Logo%20PT%20CIPTA%20ADI%20SURYA%20FIX.png" alt="PT Cipta Adi Surya" className="w-2 h-2" />
+                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Toko.png" alt="Katalog Sepatu Nasional" className="w-2 h-2 object-contain" />
+                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Pavilion.png" alt="The Pavilion" className="w-2 h-2 object-contain" />
+                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Logo%20PT%20CIPTA%20ADI%20SURYA%20FIX.png" alt="PT Cipta Adi Surya" className="w-2 h-2 object-contain" />
                 </div>
             </section>
             <footer className="bg-accent text-accent-foreground py-6 text-center">
