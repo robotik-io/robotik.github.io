@@ -2,7 +2,7 @@ export default function Widget() {
     return (
         <div className="bg-background text-foreground p-8">
             <header className="flex justify-between items-center mb-8">
-                <h1 className="text-4xl font-bold">Robotik - Instant Analytics & Process Automation</h1>
+                <h1 className="text-4xl font-bold">Robotik - Instant Analytics 📊 & Process Automation 🤖</h1>
                 <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg">Get Started</button>
             </header>
             <p className="text-lg mb-6">We empower entrepreneurs and industry leaders by automating their analytical needs and workflows so they can focus on business strategies.</p>
@@ -23,9 +23,9 @@ export default function Widget() {
             <section className="my-12">
                 <h2 className="text-2xl font-semibold mb-4">Empowering Indonesia’s entrepreneurs and industry leaders</h2>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Toko.png" alt="Katalog Sepatu Nasional" className="w-16 h-16 object-contain" />
-                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Pavilion.png" alt="The Pavilion" className="w-16 h-16 object-contain" />
-                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Logo%20PT%20CIPTA%20ADI%20SURYA%20FIX.png" alt="PT Cipta Adi Surya" className="w-16 h-16 object-contain" />
+                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Toko.png" alt="Katalog Sepatu Nasional" className="w-32 h-32 object-contain" />
+                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Copy%20of%20Logo%20Pavilion.png" alt="The Pavilion" className="w-32 h-32 object-contain" />
+                    <img src="https://raw.githubusercontent.com/robotikapp/home/main/robotik-asset/Logo%20PT%20CIPTA%20ADI%20SURYA%20FIX.png" alt="PT Cipta Adi Surya" className="w-32 h-32 object-contain" />
                 </div>
             </section>
             <footer className="bg-accent text-accent-foreground py-6 text-center">
