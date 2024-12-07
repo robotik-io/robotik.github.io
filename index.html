@@ -1,132 +1,89 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
-		<script type="text/javascript">
-			window.tailwind.config = {
-				darkMode: ['class'],
-				theme: {
-					extend: {
-						colors: {
-							border: 'hsl(var(--border))',
-							input: 'hsl(var(--input))',
-							ring: 'hsl(var(--ring))',
-							background: 'hsl(var(--background))',
-							foreground: 'hsl(var(--foreground))',
-							primary: {
-								DEFAULT: 'hsl(var(--primary))',
-								foreground: 'hsl(var(--primary-foreground))'
-							},
-							secondary: {
-								DEFAULT: 'hsl(var(--secondary))',
-								foreground: 'hsl(var(--secondary-foreground))'
-							},
-							destructive: {
-								DEFAULT: 'hsl(var(--destructive))',
-								foreground: 'hsl(var(--destructive-foreground))'
-							},
-							muted: {
-								DEFAULT: 'hsl(var(--muted))',
-								foreground: 'hsl(var(--muted-foreground))'
-							},
-							accent: {
-								DEFAULT: 'hsl(var(--accent))',
-								foreground: 'hsl(var(--accent-foreground))'
-							},
-							popover: {
-								DEFAULT: 'hsl(var(--popover))',
-								foreground: 'hsl(var(--popover-foreground))'
-							},
-							card: {
-								DEFAULT: 'hsl(var(--card))',
-								foreground: 'hsl(var(--card-foreground))'
-							},
-						},
-					}
-				}
-			}
-		</script>
-		<style type="text/tailwindcss">
-			@layer base {
-				:root {
-					--background: 0 0% 100%;
---foreground: 240 10% 3.9%;
---card: 0 0% 100%;
---card-foreground: 240 10% 3.9%;
---popover: 0 0% 100%;
---popover-foreground: 240 10% 3.9%;
---primary: 240 5.9% 10%;
---primary-foreground: 0 0% 98%;
---secondary: 240 4.8% 95.9%;
---secondary-foreground: 240 5.9% 10%;
---muted: 240 4.8% 95.9%;
---muted-foreground: 240 3.8% 46.1%;
---accent: 240 4.8% 95.9%;
---accent-foreground: 240 5.9% 10%;
---destructive: 0 84.2% 60.2%;
---destructive-foreground: 0 0% 98%;
---border: 240 5.9% 90%;
---input: 240 5.9% 90%;
---ring: 240 5.9% 10%;
---radius: 0.5rem;
-				}
-				.dark {
-					--background: 240 10% 3.9%;
---foreground: 0 0% 98%;
---card: 240 10% 3.9%;
---card-foreground: 0 0% 98%;
---popover: 240 10% 3.9%;
---popover-foreground: 0 0% 98%;
---primary: 0 0% 98%;
---primary-foreground: 240 5.9% 10%;
---secondary: 240 3.7% 15.9%;
---secondary-foreground: 0 0% 98%;
---muted: 240 3.7% 15.9%;
---muted-foreground: 240 5% 64.9%;
---accent: 240 3.7% 15.9%;
---accent-foreground: 0 0% 98%;
---destructive: 0 62.8% 30.6%;
---destructive-foreground: 0 0% 98%;
---border: 240 3.7% 15.9%;
---input: 240 3.7% 15.9%;
---ring: 240 4.9% 83.9%;
-				}
-			}
-		</style>
-  </head>
-  <body>
-    <div class="bg-background text-foreground p-6">
-    <header class="text-center py-12">
-        <h1 class="text-4xl font-bold">The Edge of Human Knowledge is Here</h1>
-        <button class="bg-primary text-primary-foreground hover:bg-primary/80 mt-4 p-2 rounded-lg">Get Started</button>
-    </header>
-    <section class="text-center py-12">
-        <h2 class="text-3xl font-semibold">We're on a mission to bring ideas to life.</h2>
-        <p class="mt-4">High Performance AI Services</p>
-        <p>Open Source and Customized Solutions</p>
-        <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 mt-4 p-2 rounded-lg">Complete Projects Quality and Time</button>
-    </section>
-    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-12">
-        <div class="bg-card p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">Global Outreach</h3>
-            <p class="text-muted-foreground">Connecting with clients worldwide.</p>
-        </div>
-        <div class="bg-card p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">Natural Language Processing</h3>
-            <p class="text-muted-foreground">Understanding and generating human language.</p>
-        </div>
-        <div class="bg-card p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold">Data Analytics</h3>
-            <p class="text-muted-foreground">Transforming data into actionable insights.</p>
-        </div>
-    </section>
-    <footer class="text-center py-12">
-        <p class="text-muted-foreground">We still have many other services that we will introduce to you.</p>
-        <button class="bg-accent text-accent-foreground hover:bg-accent/80 mt-4 p-2 rounded-lg" style="background: #22affe; border: 2px solid black; color: white;">Contact Us</button>
-    </footer>
-</div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotik - Instant Analytics</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
 
-  </body>
+  <script type="text/babel">
+    function Widget() {
+      return (
+        <div className="bg-background text-foreground p-8">
+          <header className="flex justify-between items-center mb-8">
+            <h1 className="text-4xl font-bold">Robotik - Instant Analytics & Process Automation</h1>
+            <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg">
+              Get Started
+            </button>
+          </header>
+          <p className="text-lg mb-6">
+            We empower entrepreneurs and industry leaders by automating their analytical needs and workflows so they can focus more on important business strategies.
+          </p>
+          <button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg">
+            See Our Products
+          </button>
+          <section className="my-12">
+            <h2 className="text-2xl font-semibold mb-4">Our Products</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-card p-6 rounded-lg shadow-lg">
+                <h3 className="text-xl font-bold">Instant Analytics</h3>
+                <p className="text-muted-foreground">
+                  Get real-time insights on how your business is performing.
+                </p>
+              </div>
+              <div className="bg-card p-6 rounded-lg shadow-lg">
+                <h3 className="text-xl font-bold">Process Automation (BETA)</h3>
+                <p className="text-muted-foreground">
+                  Enhance your workflows with automation.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section className="my-12">
+            <h2 className="text-2xl font-semibold mb-4">
+              Empowering entrepreneurs and industry leaders in Indonesia
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              <img
+                src="https://example.com/katalogsn.png"
+                alt="Katalog Sepatu Nasional"
+                className="w-16 h-16"
+              />
+              <img
+                src="https://example.com/thepavilion.png"
+                alt="The Pavilion"
+                className="w-16 h-16"
+              />
+              <img
+                src="https://example.com/ptciptaas.png"
+                alt="PT Cipta Adi Surya"
+                className="w-16 h-16"
+              />
+            </div>
+          </section>
+          <footer className="bg-accent text-accent-foreground py-6 text-center">
+            <h3 className="text-xl font-bold">Ready to supercharge your business process?</h3>
+            <p className="my-2">Let us help you to gain insights and automate.</p>
+            <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg">
+              Schedule a Demo
+            </button>
+          </footer>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<Widget />);
+  </script>
+</body>
 </html>
